@@ -1,0 +1,22 @@
+.tag {
+  &__container {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+
+    color: black;
+    font-weight: bold;
+
+    >.anticon-close {
+      visibility: hidden;
+    }
+
+    &:hover {
+      background-color: #f5f4f4;
+      
+      >.anticon-close {
+        visibility: visible;
+      }
+    }
+  }
+}
